@@ -122,3 +122,10 @@ WHERE f_loaded = FALSE
 UPDATE Revenue_Fact
 SET f_loaded = TRUE
 WHERE f_loaded = FALSE
+
+
+-- Delete today's entries in the fact table for repeated testing:
+DELETE FROM Revenue_Fact WHERE CalendarKey = 4472
+
+-- Set your extraction timestamp earlier (if needed!)
+UPDATE Revenue_Fact SET ExtractionTimestamp = ExtractionTimestamp - INTERVAL 2 DAY WHERE CalendarKey = (whatever the calendar key is for your current date in the fact table that you want to change)
