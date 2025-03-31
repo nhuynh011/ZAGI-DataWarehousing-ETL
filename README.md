@@ -9,4 +9,5 @@ ZAGI DW ETL 3 Multiple Sources.sql: Inserting into a dimension that comes from m
 ZAGI DW ETL 4 Fact table for sales product.sql: Creation and population of the fact table for sales transactions only.<br/>
 ZAGI DQ ETL 5 Fact table for rental products.sql: Population of the fact table for rental products only.<br/>
 ZAGI DW ETL 6 Post Load snapshots and aggregates.sql: Creation and population of aggregate fact tables and snapshot tables with supplementary dimensions.<br/>
-ZAGI DW 7 Daily refresh ETL.sql: Example code for ETL pipeline for daily refreshes of new records.
+ZAGI DW 7 Daily refresh ETL.sql: Example code for ETL pipeline for daily refreshes of new records.<br/>
+ZAGI DW 7.5 Daily Refresh Proceedure.sql: The daily refresh queries, packed into a proceedure for easy implimentation.<br/>
