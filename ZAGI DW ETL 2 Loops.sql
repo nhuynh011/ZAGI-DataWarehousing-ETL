@@ -1,16 +1,3 @@
--- Store ETL Extraction for ZAGImore
-SELECT s.storeid, s.storezip, s.regionid, r.regionname
-FROM mihuynh_ZAGImore.store s, mihuynh_ZAGImore.region r
-WHERE s.regionid = r.regionid
-
--- Then apply insert into
-INSERT INTO store_dimension (StoreID, StoreZip, RegionID, RegionName)
-
-SELECT s.storeid, s.storezip, s.regionid, r.regionname
-FROM mihuynh_ZAGImore.store s, mihuynh_ZAGImore.region r
-WHERE s.regionid = r.regionid
-
-
 -- For populating calendar dimension: data staging
 CREATE PROCEDURE populateCalendar() --function
 BEGIN
