@@ -1,5 +1,5 @@
 # ZAGI Data Warehouse ETL
-A tutorial-like transformation of the ZAGI relational database into a data warehouse using an ETL (Extract, Transform, Load) pipeline for analytics in phpMyAdmin.
+A tutorial-like transformation of the ZAGI relational database into a data warehouse using an ETL (Extract, Transform, Load) pipeline for analytics in MySQL.
 
 # Contents
 Data warehouse creation:<br/>
